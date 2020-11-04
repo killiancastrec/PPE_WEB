@@ -1,0 +1,241 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+.image{
+    width:100%;
+}
+
+.section img{
+    width:100%;
+}
+#insta{
+    width:60%;
+}
+@media screen and (max-width: 992px) {
+    #insta{
+        width: 15%;
+    }
+}
+
+/*
+--------------
+--------------
+Formulaire de connexion
+--------------
+--------------
+*/
+fieldset{
+    border-color: #457B9D;
+    padding:20px;
+    margin-bottom:10px;
+}
+input[type=submit]{
+    background-color: #457B9D;
+    border: none;
+    color: #F1FAEE;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px;
+}
+
+
+/*
+--------------
+--------------
+Fin Formulaire de connexion
+--------------
+--------------
+*/
+
+
+
+
+.message-erreur {
+    background: url(/images/pasOK.png) 10px center no-repeat;
+    padding: 0 0 0 30px;
+    display: inline;
+    color: #B30202;
+}
+
+.message-ok {
+    background: url(/images/OK.png) 10px center no-repeat;
+    padding: 0 0 0 30px;
+    display: inline;
+    color: #8FCF3C;
+    font-weight: bold
+}
+
+legend {
+    color:#e63946;
+    font-weight:bold
+}
+
+
+
+
+
+/*
+--------------
+--------------
+Logo animé
+--------------
+--------------
+*/
+
+.logocase{
+    position: absolute;
+    left: 50%;
+    top:32px;;
+    transform: translate(-50%,-50%);
+    width: 60px;
+    height: 60px;
+}
+
+.logobox{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #E63946;
+}
+
+.logobox:nth-child(1){
+    animation: a1 2s infinite linear;
+}
+
+.logobox:nth-child(2){
+    animation: a2 2s infinite linear;
+}
+
+
+@keyframes a1 {
+    0%{
+        top: 0;
+        left: 0;
+        width: 30px;
+        height: 30px;
+    }
+    12.5%{
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 30px;
+    }
+    25%{
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 30px;
+    }
+    37.5%{
+        top: 0;
+        left: 30px;
+        width: 30px;
+        height: 30px;
+    }
+    50%{
+        top: 0;
+        left: 30px;
+        width: 30px;
+        height: 30px;
+    }
+    62.5%{
+        top: 0;
+        left: 30px;
+        width: 30px;
+        height: 60px;
+    }
+    75%{
+        top: 0;
+        left: 30px;
+        width: 30px;
+        height: 60px;
+    }
+    87.5%{
+        top: 30px;
+        left: 30px;
+        width: 30px;
+        height: 30px;
+    }
+    100%{
+        top: 30px;
+        left: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@keyframes a2 {
+    0%{
+        right: 0;
+        bottom: 0;
+        width: 30px;
+        height: 30px;
+    }
+    12.5%{
+        right: 0;
+        bottom: 0;
+        width: 30px;
+        height: 30px;
+    }
+    25%{
+        right: 0;
+        bottom: 0;
+        width: 60px;
+        height: 30px;
+    }
+    37.5%{
+        right: 0;
+        bottom: 0;
+        width: 60px;
+        height: 30px;
+    }
+    50%{
+        right: 30px;
+        bottom: 0;
+        width: 30px;
+        height: 30px;
+    }
+    62.5%{
+        right: 30px;
+        bottom: 0;
+        width: 30px;
+        height: 30px;
+    }
+    75%{
+        right: 30px;
+        bottom: 0;
+        width: 30px;
+        height: 60px;
+    }
+    87.5%{
+        right: 30px;
+        bottom: 0;
+        width: 30px;
+        height: 60px;
+    }
+    100%{
+        right: 30px;
+        bottom: 30px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/*
+--------------
+--------------
+Fin logo animé
+--------------
+--------------
+*/

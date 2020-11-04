@@ -1,0 +1,40 @@
+.ac_results {
+	padding: 0px;
+	border: 1px solid #e63946;
+	background-color: #f1faee;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	font: menu;
+	font-size: 11px;
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #457b9d;
+        color: white;
+}
+
+.ac_over {
+	background-color: #9e9e9e;
+	color: white;
+}
